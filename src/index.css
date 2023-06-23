@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  background-image: url('../src/assets/Background-desktop.jpg');
+  background-repeat : no-repeat;
+  background-size : cover ;
+}
+
+@media(max-width: 576px){
+  body{
+    background-image: url('../src/assets/Background-mobile.jpg');
+    background-repeat : no-repeat;
+  background-size : cover ;
+  }
+}
