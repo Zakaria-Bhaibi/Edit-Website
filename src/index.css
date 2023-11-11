@@ -6,6 +6,12 @@
   h3 {
     @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
   }
+  h5 {
+    @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+  }
+}
+.section-content{
+  @apply max-w-3xl mx-auto text-xl leading-9 text-center text-grayishBlue;
 }
 .section-container{
   @apply max-w-6xl mx-auto text-center px-10;
@@ -17,7 +23,7 @@
 
 
 body{
-  background-image: url('../src/assets/Background-desktop.jpg');
+  background-image: url('../src/assets/Background-desktop.png');
   background-repeat : no-repeat;
   background-size : cover ;
 }
@@ -28,4 +34,7 @@ body{
     background-repeat : no-repeat;
   background-size : cover ;
   }
+}
+.ficon:hover {
+ filter :invert(53%) sepia(68%) saturate(434%) hu-rotate(121deg) brightness(101%) contrast(94%);
 }
